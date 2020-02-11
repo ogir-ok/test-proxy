@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  proxy:
+    build: .
+    ports:
+      - '8880:8880'
+    command: 'python proxy.py'
